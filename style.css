@@ -1,3 +1,13 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hwb(280 0% 94%);
+}
+
+i {
+    color: rgb(249, 241, 255);
 }

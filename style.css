@@ -9,6 +9,10 @@
     --color-ontext: hwb(274 95% 0%);
 }
 
+.none {
+    display: none;
+}
+
 body {
     background-color: var(--color-onback);
     font-family: "Roboto Mono", monospace;
@@ -47,4 +51,18 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1200px) {
+    ul {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    h2 {
+        display: none;
+    }
 }

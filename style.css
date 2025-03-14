@@ -11,8 +11,10 @@
 
 body {
     background-color: var(--color-onback);
+    font-family: "Roboto Mono", monospace;
 }
 
-i {
+i,
+h2 {
     color: var(--color-ontext);
 }

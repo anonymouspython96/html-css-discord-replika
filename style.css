@@ -11,6 +11,10 @@
   --color-onborder-shadow: hwb(235 17% 46%);
 }
 
+#none {
+  display: none;
+}
+
 .none {
   display: none;
 }
@@ -263,9 +267,19 @@ header img {
 
 
 
+@media screen and (max-width: 1450px) {
+  nav button span {
+    display: none;
+  }
 
+  #none {
+    display: block;
+    padding: 0;
+  }
 
-@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1350px) {
   ul {
     display: none;
   }
@@ -286,6 +300,7 @@ header img {
   header img {
     width: 75%;
     order: -1;
+    margin: 0 auto;
   }
 
   .text-hero h1 {
